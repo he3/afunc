@@ -9,7 +9,7 @@ public static string Run(HttpRequestMessage req, TraceWriter log)
     {
         using (var client = new WebClient())
         {
-            
+            // test comment.
             data = client.DownloadString("https://api.ipify.org?format=json");
         }
     }
